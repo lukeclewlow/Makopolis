@@ -1,13 +1,35 @@
-![image](https://raw.githubusercontent.com/lukeclewlow/Makopolis/master/Makopolis.png?raw=true)
-=============================================================
-[![Code Climate](https://codeclimate.com/github/lukeclewlow/Makopolis/badges/gpa.svg)](https://codeclimate.com/github/lukeclewlow/Makopolis)
-=============================================================
 
+# Makopolis
+
+##What is it? 
+Simple Board Game - with ruby questions
+[Makopolis Live Version](makopolis.herokuapp.com)  (hosted on heroku)  
+
+##code climate
+[![Code Climate](https://codeclimate.com/github/sandagolcea/Makopolis/badges/gpa.svg)](https://codeclimate.com/github/sandagolcea/Makopolis)  
+[![Test Coverage](https://codeclimate.com/github/sandagolcea/Makopolis/badges/coverage.svg)](https://codeclimate.com/github/sandagolcea/Makopolis)
+
+##Why?
 We built a coding based board game for our Makerthon Challenge, so that people might learn something about Ruby and have fun whilst doing it!
 
-Heroku (live)
-------
-https://makopolis.herokuapp.com/
+##screenshot
+![Makopolis](/Makopolis.png?raw=true "Makopolis board game")
+
+
+##How to run
+`git clone git@github.com:sandagolcea/Makopolis.git`  
+`npm install`  
+`foreman start` or `node server.js`  
+go to `localhost:5000`  
+
+###To run tests:
+```sh
+npm install
+grunt
+```
+For unit tests:   
+`Open SpecRunner.html`
+
 
 Objectives
 -----
@@ -16,17 +38,17 @@ Objectives
 * Learning team skills
 * Learn about planning and design
 
-Technologies
-----------
+
+##technologies
 * Javascript
 * JQuery
-* Node
+* NODEjs, Express
 * Html
 * CSS
 * Git
 * Heroku
 * Jasmine
-* Casper, Mocha, Chai
+* Casper, Mocha, Chai, Grunt
 * WebSockets
 
 MVP Requirements
@@ -38,36 +60,17 @@ MVP Requirements
 Enhancements
 ------------
 If we had more time to work on this project, the features we would like to have added would be:
-- [ ] Two player functionality using web sockets
+- [ ] Two player functionality using web sockets (multiplayer with sockets, turn implementation)
 - [ ] The ability to ask questions that weren't multiple choice - real life coding problems
-- [ ] A more responsive web page that isn't affected by resizing
+- [ ] A more responsive web page that isn't affected by resizing (improve css display (numbers could be attached to SVG elements))
+- [ ] Timer for the questions (e.g.: 10 sec/question)
+- [ ] Questions could be either from a github repo or transmitted in JSON format (hardcoded atm)
 
-How to clone this repo
-----
-```sh
-git clone https://github.com/lukeclewlow/Makopolis
-```
 
-How to run our tests
-----
-```sh
-npm install
-grunt
-```
+##Contributors
+[Steph Oldcorn](https://github.com/stepholdcorn)  
+[Oliver Lucas](https://github.com/olucas92)  
+[Luke Clewlow](https://github.com/lukeclewlow)  
+[Huy Le](https://github.com/tekhuy)  
+[Sanda](https://github.com/sandagolcea)
 
-How to run locally
-----
-
-```sh
-node server.js
-```
-
-Visit http://localhost:5000/
-
-Contributors
-----
-Our team was made up of: [Sanda], [Huy], [Steph], [Oli] and myself!
-[Sanda]:https://github.com/sandagolcea
-[Huy]:https://github.com/tekhuy
-[Steph]:https://github.com/stepholdcorn
-[Oli]:https://github.com/olucas92
