@@ -3,7 +3,7 @@
 
 ##What is it? 
 Simple Board Game - with ruby questions
-[Makopolis Live Version](makopolis.herokuapp.com)  (hosted on heroku)  
+[Makopolis Live Version](https://makopolis-game.herokuapp.com/)  (hosted on heroku)  
 
 ##code climate
 [![Code Climate](https://codeclimate.com/github/sandagolcea/Makopolis/badges/gpa.svg)](https://codeclimate.com/github/sandagolcea/Makopolis)  
