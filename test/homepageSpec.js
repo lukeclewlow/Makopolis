@@ -35,18 +35,4 @@ describe ("Homepage", function(){
   	});
   });
 
-  // it('shows correct or wrong when you click on an answer', function(){
-  // 	casper.then(function(){
-  // 		this.mouse.click('#answer1');
-  // 			expect('h3[id="question-text"]').to.contain.text("You're Wrong!!!!");
-  // 	});
-  // });
-
-  	it('shows sonic on the first square on loading', function(){
-  		casper.then(function() {
-  			this.wait(1000, function(){
-  				
-  			});
-  		});
-  	});
 });
